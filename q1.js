@@ -11,7 +11,7 @@
 })([1, 2, 3, 4, 5, 6, 7, 8, 9]);
 
 
-//Convert all the strings to title caps in a string array:
+//Convert all the strings to title caps in a string array
 
 (function(arr) {
     var titleCapsArray = arr.map(function(str) {
@@ -20,7 +20,7 @@
     console.log(titleCapsArray);
 })(["hello", "world", "javascript"]);
 
-//Sum of all numbers in an array:
+//Sum of all numbers in an array
 
 (function(arr) {
     var sum = arr.reduce(function(acc, curr) {
@@ -29,7 +29,7 @@
     console.log(sum);
 })([1, 2, 3, 4, 5]);
 
-//Return all the prime numbers in an array:
+//Return all the prime numbers in an array
 
 (function(arr) {
     function isPrime(num) {
