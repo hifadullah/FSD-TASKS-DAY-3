@@ -1,6 +1,6 @@
 //Do the below programs in anonymous function & IIFE
 
-//Print odd numbers in an array
+//Print odd numbers in an array//
 
 (function(arr) {
     arr.forEach(function(num) {
